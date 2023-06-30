@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./images/logo.png" type="image/png" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <title>SweetHome | Stay safe , stay long</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="logo_item">
+        <i class="bx bx-menu" id="sidebarOpen"></i>
+        <a href="index.html" class="logo_link">
+          <img src="images/logo.png" alt="" />
+          <h2>SwtHome</h2>
+        </a>
+      </div>
+      <div class="search_bar">
+        <input type="text" placeholder="Search" />
+      </div>
+      <div class="navbar_content">
+        <img src="images/people.png" alt="" class="profile" />
+        <i class="bx bx-log-out"></i>
+      </div>
+    </nav>
+
+    <!-- sidebar -->
+    <nav class="sidebar">
+      <div class="menu_content">
+        <ul class="menu_items">
+          <div class="menu_title menu_editor"></div>
+          <li>
+            <div class="form-group has-search">
+              <span class="bx bx-search-alt-2 form-control-feedback"></span>
+              <input
+                type="text"
+                class="form-control mt-3"
+                placeholder="Search"
+              />
+            </div>
+          </li>
+
+          <li class="item">
+            <a href="index.html" class="nav_link">
+              <span class="navlink_icon">
+                <i class="bx bxs-home"></i>
+              </span>
+              <span class="navlink">Home</span>
+            </a>
+          </li>
+          <!-- End -->
+
+          <li class="item">
+            <a href="about.html" class="nav_link">
+              <span class="navlink_icon">
+                <i class="bx bx-health"></i>
+              </span>
+              <span class="navlink">About</span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="image.html" class="nav_link">
+              <span class="navlink_icon">
+                <i class="bx bx-images"></i>
+              </span>
+              <span class="navlink">Images</span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="contact.html" class="nav_link">
+              <span class="navlink_icon">
+                <i class="bx bx-phone"></i>
+              </span>
+              <span class="navlink">Contact</span>
+            </a>
+          </li>
+        </ul>
+
+        <!-- Sidebar Open / Close -->
+      </div>
+    </nav>
+
+    <div class="contentbox">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="row">
+          <div class="col-lg-7 col-md-9 col-12">
+            <div class="card">
+              <form action="">
+                <div class="form-group">
+                  <label for="usr">Name:</label>
+                  <input type="text" class="form-control" id="usr" />
+                </div>
+                <div class="form-group">
+                  <label for="pwd">Email:</label>
+                  <input type="email" class="form-control" id="pwd" />
+                </div>
+                <div class="form-group">
+                  <label for="pwd">Phone:</label>
+                  <input type="tel" class="form-control" id="pwd" />
+                </div>
+                <div class="form-group">
+                  <label for="comment">Comment:</label>
+                  <textarea
+                    class="form-control"
+                    rows="3"
+                    id="comment"
+                  ></textarea>
+                </div>
+                <div class="text-right">
+                  <button class="btn btn-success">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</html>
